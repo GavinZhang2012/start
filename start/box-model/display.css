@@ -1,0 +1,22 @@
+div {
+    background-color: blueviolet;
+}
+
+p {
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+span {
+    background-color: bisque;
+    height: 200px;
+    display: inline-block;
+}
+
+strong {
+    background-color: aquamarine;
+}
+
+.menu2>li {
+    display: inline-block;
+}

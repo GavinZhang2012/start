@@ -16,4 +16,10 @@ color: blue;
 font-size: small;
 }
 
-    
+.introduction{
+   word-spacing: 5px;
+}
+
+.link-for-introduction{
+    color: blue;
+}

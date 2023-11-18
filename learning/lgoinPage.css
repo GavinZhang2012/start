@@ -2,4 +2,8 @@
     border: 20px blue solid;
     display: inline-block;
     margin: 10px auto 10px auto;
+    size: 100px;
+    display: block;
+    width: 800px;
+    height: 150px;
 }

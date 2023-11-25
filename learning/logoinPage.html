@@ -17,22 +17,26 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1 id="homePage-title"><span id="HTML-and-CSS-s">HTML and CSS's </span>learner's best helper</h1>
-    <div id="loginInput">
-        <form action="homePage.html">
+
+
+        <h1 id="login-title">HTML and CSS's learner's best helper</h1>
+    
+
+        <div id="loginInput">
+        <form action="homePage.html" id="login-box">
             <div>
-            <input required type="email" placeholder="email">
-            </div>
+            <input required id="login-input" type="email" placeholder="email">  
+            </div>     
             <div>  
-            <input required type="password" placeholder="password">
+            <input required id="login-input" type="password" placeholder="password">
             </div>
             <div>
-            <label for="login-helper">chooseble:</label>
+            <label for="login-input">chooseble:</label>
             </div>
             <div>
-            <input type="number" placeholder="born days" id="login-helper">
-            <input type="number" placeholder="born mouths">
-            <input type="number" placeholder="born years">
+            <input type="number" placeholder="born days" id="login-input">
+            <input type="number" placeholder="born mouths" id="login-input" >
+            <input type="number" placeholder="born years" id="login-input" >
             </div>
             <button type="reset">reset</button>
             <button>submit</button>
